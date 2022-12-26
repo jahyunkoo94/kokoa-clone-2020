@@ -10,6 +10,23 @@
   font-size: 32px;
   font-weight: 600;
 }
+
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__icons:last-child {
+  position: relative;
+}
+
+.screen-header__notification__dot {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: -10px;
+  bottom: 15px;
 }

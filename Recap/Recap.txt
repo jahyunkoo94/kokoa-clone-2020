@@ -1,0 +1,9 @@
+#7.1 Publishing on Github Pages
+
+To Publishing site requires that Repository is public
+
+The name of branch that going to be published site must be "gh-pages"
+
+#7.2 Updating Github Pages
+
+Changing Code must be in master branch

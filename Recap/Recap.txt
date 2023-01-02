@@ -7,3 +7,7 @@ The name of branch that going to be published site must be "gh-pages"
 #7.2 Updating Github Pages
 
 Changing Code must be in master branch
+
+after change code, Go to master and make commmit, push
+
+move gh-pages branch and then update from master, push

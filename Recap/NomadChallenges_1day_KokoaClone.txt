@@ -1,0 +1,69 @@
+#1.5 What is Website
+
+Website is just Text
+
+website is made of 2 or 3 language
+
+first language is HTML for content
+seond language is CSS for design
+last language is Javascript for interactivity
+
+HTML, CSS are not programming language
+
+#1.6 What is HTML
+
+HTML means Hypertext Marrkup language
+
+Browser doesn't understand human language
+
+we need to explain browser how is our browser structure with HTML
+
+HTML is only language that can explain what is the content of website to the browser
+
+#1.7 What is CSS
+
+CSS means Cascadin Style Sheets
+
+CSS should be used with HTML
+
+CSS is to tell browser how does website content look like
+
+#1.8 What is Javascript
+
+Javascript is brain of website
+
+Javascript is programming language
+
+#2.0 Our First HTML File
+
+Folder name should always be lowercase!
+
+file name also should always be lowercase!
+
+#2.1 Setup and Errors
+
+VSC Extension Program
+
+- WakeTime 
+- Community Material Theme
+- Material Icon Theme
+- Prettier
+
+Browser doesn't tell the HTML file has error
+
+#2.2 Our First HTML Tag
+
+Browser knows content between HTML Tag
+
+write "/" at the beginning of close Tag 
+ex) <div></div>
+
+HTML Tag must be closed with close Tag
+
+h1 tag means header No.1
+
+Do not remember or memorize HTML Tag
+
+
+
+

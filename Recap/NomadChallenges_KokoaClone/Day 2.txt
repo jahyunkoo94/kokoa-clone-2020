@@ -6,3 +6,109 @@ two kinds of list on HTML
 
 command(ctrl) + D make cursur to same words
 
+Prettier Setting 
+- Settings - format on save Check
+
+#2.4 Tag Attributes
+
+<a> tag means anchor, like link.
+Anchor is basically a way going to another website.
+href attribute means HTTP reference. href can only be combine with anchor.
+target attribute determines where href is opened.
+ex) <a href="http://goggle.com">Go to google.com</a>
+
+Attributes is basically add information to a text.
+Any attributes can be added.
+But the browser is not going to understand not exist attributes.
+attributes can only be combine with the tag that has that attribute.
+some tags share attribute. some tags do not.
+
+<img src="" alt="" /> is img tag.
+it doesn't have closing tag like </img>. 
+it is self closing tag. looks like this <img />
+because img doesn't have content.
+the only img tag has src attribute. 
+the src need image source link and puts it in the image
+
+#2.5 More Tags and Head
+
+local image source should be write path notation like <img src="img/logo.img" />
+
+HTML has rule that must be followed.
+1. first line must be <!DOCTYPE html>
+    it means informing the browser that this file is HTML file
+2. between <html> and </html> is going to be html code
+3. websites have two parts. head and body
+    - head is where configure the website. do setting invisible settings.
+        ex) <title>Home - My first website.</title> is shown title on tab 
+    - body is where the content is shown we puts on the website. 
+
+#2.6 Its All About the Head 
+
+<meta> tags are means extra data. they have two attribute. name and content.
+meta tags are self closing tags.
+every tag on the head is invisible.
+
+#2.7 More Tags
+
+Use MDN when search html,css,js
+
+Do not memorize all tags and attributes!
+
+#2.8 Form Tags 
+
+<form> tag is submiting information group of input or file ...
+input tag has many types.
+we can find tags in MDN.
+
+#2.9 More Tags and IDs
+
+label works together with the input.
+<input> tag should have id attribute. for="" in label and id="" in input must be same.
+if click the label we can type in input.
+
+id must be unique in the whole document.
+the purpose using id is to identify the element when using scripting or css.
+so all element have only one id.
+
+#2.10 Semantic HTML
+
+<div> tag is like a box.
+boxes can not exist next to each other.
+
+Semantic tag means basically the meaning tracking by looking a document
+ex) <header>, <main>, <footer>, <address>...
+those tags equal <div>. but we can easily understand the meaning.
+
+<span> is for short text
+<p> means paragraph. it is for long text.
+
+#2.11 Recap
+
+HTML is the bone. CSS is the muscle. Javascript is the brain.
+HTML is made of tags. browser can't understand undefined tag.
+
+Tag consist of opening tag and closing tag.
+A closing tag starts with "/" and must be same words as opening tag
+ex) <div> </div>
+
+tags can have many attributes. 
+Attributes must always use double quotes. 
+ex) <div id="box"> </div>
+
+any tags have id.
+some attribute can be used for every tags. but some attribute can be used for certain tag.
+
+<div> is most generic box container.
+but we want to have meaning when we writing the code and understand by read the code.
+so we need to use segmantic tag.
+
+head is configure the website. it is invisible on website.
+
+use more often tags are <header>, <main>, <footer>, <navigation>, <sidebar>, 
+
+
+
+
+
+

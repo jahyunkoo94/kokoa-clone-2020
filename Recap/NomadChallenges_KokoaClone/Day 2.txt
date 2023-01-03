@@ -1,0 +1,8 @@
+#2.3 More Tags and Prettier
+
+two kinds of list on HTML
+- Orderd list : 12345, ex) <ol></ol>
+- Unordered list : 15243 , ex) <ul></ul>
+
+command(ctrl) + D make cursur to same words
+

@@ -11,19 +11,22 @@ Prettier Setting
 
 #2.4 Tag Attributes
 
+Attributes is basically add information to a text.
+Any attributes can be added.
+But the browser is not going to understand not exist attributes.
+attributes can only be combine with the tag that has that attribute.
+some tags share attribute. some tags do not.
+Attributes must always use double quotes. 
+ex) <div id="box"> </div>
+
+
 <a> tag means anchor, like link.
 Anchor is basically a way going to another website.
 href attribute means HTTP reference. href can only be combine with anchor.
 target attribute determines where href is opened.
 ex) <a href="http://goggle.com">Go to google.com</a>
 
-Attributes is basically add information to a text.
-Any attributes can be added.
-But the browser is not going to understand not exist attributes.
-attributes can only be combine with the tag that has that attribute.
-some tags share attribute. some tags do not.
-
-<img src="" alt="" /> is img tag.
+<img/> is img tag.
 it doesn't have closing tag like </img>. 
 it is self closing tag. looks like this <img />
 because img doesn't have content.
@@ -41,13 +44,12 @@ HTML has rule that must be followed.
 3. websites have two parts. head and body
     - head is where configure the website. do setting invisible settings.
         ex) <title>Home - My first website.</title> is shown title on tab 
-    - body is where the content is shown we puts on the website. 
+    - body is where the content is shown we put on the website. 
 
 #2.6 Its All About the Head 
 
 <meta> tags are means extra data. they have two attribute. name and content.
 meta tags are self closing tags.
-every tag on the head is invisible.
 
 #2.7 More Tags
 
@@ -59,21 +61,21 @@ Do not memorize all tags and attributes!
 
 <form> tag is submiting information group of input or file ...
 input tag has many types.
-we can find tags in MDN.
 
 #2.9 More Tags and IDs
 
 label works together with the input.
-<input> tag should have id attribute. for="" in label and id="" in input must be same.
+<input> tag should have id attribute. 
+for="" in <label> and id="" in <input> must be same.
 if click the label we can type in input.
 
 id must be unique in the whole document.
 the purpose using id is to identify the element when using scripting or css.
-so all element have only one id.
+All element have only one id.
 
 #2.10 Semantic HTML
 
-<div> tag is like a box.
+<div> tag is most generic box container.
 boxes can not exist next to each other.
 
 Semantic tag means basically the meaning tracking by looking a document
@@ -96,11 +98,12 @@ tags can have many attributes.
 Attributes must always use double quotes. 
 ex) <div id="box"> </div>
 
-any tags have id.
+any tags can have id.
 some attribute can be used for every tags. but some attribute can be used for certain tag.
 
 <div> is most generic box container.
-but we want to have meaning when we writing the code and understand by read the code.
+but we want to have meaning when we writing the code.
+We understand by read the code.
 so we need to use segmantic tag.
 
 head is configure the website. it is invisible on website.
